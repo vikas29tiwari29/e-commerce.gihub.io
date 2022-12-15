@@ -1,0 +1,17 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    font-family: 'Ubuntu', sans-serif;
+}
+input{
+    width: 400px;
+    padding-left:15px ;
+    /* padding-right:100px ; */
+}
+.submit{
+    padding: 0;
+}

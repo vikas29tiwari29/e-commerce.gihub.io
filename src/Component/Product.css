@@ -1,0 +1,122 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+.bi-shop-window{
+    font-size: 30px;
+    position: relative;
+    top: 31px;
+}
+.title{
+    display: flex;
+   gap: 10px;
+   margin: 0 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d1c9be;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0!important;
+    z-index: 10;
+    height: 100px;
+}
+
+.search {
+    position: relative;
+    top: 40px;
+}
+.ShopName{
+    position: relative;
+    top: 30px;
+}
+
+.login{
+    display: flex;
+    position: relative;
+    bottom: -17px;
+    gap: 13px;
+    left: 100px;
+}
+.input{
+    width: 490px;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 31px;
+    padding: 0px 30px;
+}
+.bi-cart{
+    font-size: 33px;
+    position: relative;
+    top: 32px;
+    left: 44px;
+    border-color:black;
+    color: rgb(239, 72, 72);
+}
+.bi-cart:hover{
+    color: black;
+}
+.bi-cart:visited{
+    background-color: bisque;
+}
+
+.box{
+    display: grid;
+grid-template-columns: auto auto auto;
+/* z-index: -10; */
+position: relative;
+top: 20px;
+}
+.numItems{
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 25px;
+    position: relative;
+    bottom: 25px;
+    left: 57px;
+    text-decoration: none;
+    height: 25px;
+}
+.numItems:hover{
+    color:white;
+    background-color: black;
+}
+
+.Product-btn{
+    position: relative;
+    left: 77px;
+    /* height: 30px; */
+    /* background: antiquewhite; */
+    top: 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Ubuntu';
+    padding: 10px;
+    background: none;
+    border: 2px solid black;
+    box-shadow: 0 0 0 5px 5px;
+}
+.Product-btn:hover{
+    color: white;
+    background-color: black;
+}
+.lgsgBtn{
+    height: 47px;
+    width: 100px;
+    position: relative;
+    top: 13px;
+    border-radius: 20px;
+    background: none;
+}
+.lgsgBtn:hover{
+    color: white;
+    background-color: black;
+}
+

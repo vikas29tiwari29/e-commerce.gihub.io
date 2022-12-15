@@ -1,0 +1,72 @@
+.ig{
+    height: 100px;
+    width: 100px;
+}
+.cart2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 300px;
+    align-items: center;
+    max-width: 900px;
+    flex-wrap: wrap;
+}
+.carditems{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid black;
+     width: 100%;
+     padding:50px ;
+     box-shadow: 0 0 10px 0px black;
+}
+.title2{
+    width: 300px;
+}
+.bi-trash{
+    color: red;
+    cursor: pointer;
+}
+.bi-trash:hover{
+    color: rgb(83, 42, 165);
+}
+.quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.b{
+    border-radius: 50%;
+    width: 30px;
+}
+.b:hover{
+    background-color: rgb(186, 208, 227);
+}
+.quan{
+    position: relative;
+    top: 8px;
+}
+.total{
+    width: 100%;
+    /* position: relative; */
+    /* bottom: 1200px;
+    left: 600px; */
+    margin: 50px;
+    border-top:2px solid gray ;
+    text-align: right;
+}
+.clearCart{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+.clearCart:hover{
+    background-color: black;
+}
